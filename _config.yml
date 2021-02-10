@@ -1,12 +1,12 @@
 # Site settings
 title: Butuh Mobil? DISETIR.IN aja!
-email: disetir.in@gmail.com
+email:
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "disetirin.github.io" # the base hostname & protocol for your site
 
-instagram_username: disetir.in
-facebook_username: disetir.in
+instagram_username:
+facebook_username: 
 
 # Build settings
 markdown: kramdown
