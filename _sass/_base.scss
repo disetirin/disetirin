@@ -45,6 +45,11 @@ a.fb {
     }
 }
 
+p.ingin {
+    @include transition-all;
+    color: $theme-dark;
+}
+
 h1,
 h2,
 h3,
