@@ -18,7 +18,32 @@ hr.light {
     border-color: white;
 }
 
+a {
+    @include transition-all;
+    color: $theme-primary;
+    &:hover,
+    &:focus {
+        color: darken($theme-primary, 10%);
+    }
+}
 
+a.ig {
+    @include transition-all;
+    color: $theme-dark;
+    &:hover,
+    &:focus {
+        color: darken($theme-dark, 10%);
+    }
+}
+
+a.fb {
+    @include transition-all;
+    color: $theme-dark;
+    &:hover,
+    &:focus {
+        color: darken($theme-dark, 10%);
+    }
+}
 
 h1,
 h2,
