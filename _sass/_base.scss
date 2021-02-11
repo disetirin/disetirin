@@ -30,19 +30,11 @@ a {
 a.ig {
     @include transition-all;
     color: $theme-dark;
-    &:hover,
-    &:focus {
-        color: darken($theme-dark, 10%);
-    }
 }
 
 a.fb {
     @include transition-all;
     color: $theme-dark;
-    &:hover,
-    &:focus {
-        color: darken($theme-dark, 10%);
-    }
 }
 
 h1,
