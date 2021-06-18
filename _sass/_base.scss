@@ -132,7 +132,7 @@ aside {
         .nav > li > a:focus {
             color: rgba(white, .7);
             &:hover {
-                color: darken($theme-primary, 10%);
+                color: $theme-primary;
             }
         }
         &.affix {
