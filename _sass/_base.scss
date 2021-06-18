@@ -125,14 +125,14 @@ aside {
             color: rgba(white, .7);
             &:hover,
             &:focus {
-                color: white;
+                color: darken($theme-primary, 10%);
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
             color: rgba(white, .7);
             &:hover {
-                color: white;
+                color: darken($theme-primary, 10%);
             }
         }
         &.affix {
