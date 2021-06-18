@@ -125,7 +125,7 @@ aside {
             color: rgba(white, .7);
             &:hover,
             &:focus {
-                color: darken($theme-primary, 10%);
+                color: $theme-primary;
             }
         }
         .nav > li > a,
