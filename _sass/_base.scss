@@ -18,6 +18,10 @@ hr.light {
     border-color: white;
 }
 
+.disetirin {
+    color: $theme-primary;
+}
+
 a {
     @include transition-all;
     color: $theme-primary;
